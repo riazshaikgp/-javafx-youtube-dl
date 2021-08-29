@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane id="Pane" fx:id="mainPane" prefHeight="500.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="za.co.terratech.yt.controllers.MainWindowController">
+   <children>
+      <Button fx:id="addDownloaderBtn" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#add" text="Add Download" />
+      <Label fx:id="statusLabel" layoutX="118.0" layoutY="18.0" prefHeight="17.0" prefWidth="532.0" />
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" hmax="1000.0" layoutX="10.0" layoutY="44.0" prefHeight="450.0" prefViewportHeight="5000.0" prefWidth="641.0" vbarPolicy="ALWAYS" vmax="1000.0">
+         <content>
+             <Group fx:id="subPane" />
+         </content>
+      </ScrollPane>
+   </children>
+</Pane>
