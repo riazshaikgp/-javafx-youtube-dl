@@ -22,7 +22,7 @@ public class App extends Application {
         stage.setTitle("Terratech Youtube Downloader");
         try {
             
-            scene = new Scene(FXMLLoader.load(getClass().getResource("/fxml/MainWindow.fxml")),660,500);
+            scene = new Scene(FXMLLoader.load(getClass().getResource("/fxml/MainWindow.fxml")),660,600);
             stage.setScene(scene);
             stage.show();
             
